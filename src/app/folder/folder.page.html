@@ -8,14 +8,21 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ <h3>Sistema de Pedidos</h3>
+ <img src="assets/telaInicial.png" alt="logo">
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+ <form>
+   <ion-item>
+     <ion-label position="stacked">Email</ion-label>
+     <ion-input type="text"></ion-input>
+   </ion-item>
+   <ion-item>
+    <ion-label position="stacked">Senha</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <ion-button expand="block" >Entrar</ion-button>
+ </form>
+
+<ion-button expand="block" fill="outline">Registrar</ion-button>
+
 </ion-content>
