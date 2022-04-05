@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -9,4 +10,5 @@ export class AppComponent {
     { title: 'Home', url: '/folder', icon: 'home' },
   ];
   constructor() {}
+
 }

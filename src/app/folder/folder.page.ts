@@ -10,7 +10,8 @@ import { MenuController, NavController } from '@ionic/angular';
 export class FolderPage implements OnInit {
   public folder: string;
 
-  constructor(private activatedRoute: ActivatedRoute, public navCtrl:NavController, public menu: MenuController) { }
+  constructor(private activatedRoute: ActivatedRoute, public navCtrl:NavController, 
+    public menu: MenuController) { }
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
