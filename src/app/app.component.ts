@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MenuController } from '@ionic/angular';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -7,7 +6,8 @@ import { MenuController } from '@ionic/angular';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Home', url: '/folder', icon: 'home' },
+    { title: 'Categorias', url: '/categorias'  },
+    { title: 'Profile', url: '/profile'  }
   ];
   constructor() {}
 
